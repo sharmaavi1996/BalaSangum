@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "145364100406",
+    "firebase_url": "https://balasangum-d7670.firebaseio.com",
+    "project_id": "balasangum-d7670",
+    "storage_bucket": "balasangum-d7670.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145364100406:android:61c2b2890ee46103",
+        "android_client_info": {
+          "package_name": "balasangum.sharm.balasangum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145364100406-o7rccduci8ntetrr2c0na0ptruqith09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2Ru74XzQTe7pVY3ly8uydjbQNixcx0IU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

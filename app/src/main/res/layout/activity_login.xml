@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentStart="true"
+    tools:context="balasangum.sharm.balasangum.system.activity.LoginActivity">
+
+
+
+        <TextView
+            android:layout_margin="5.5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:textSize="22dp"
+            android:text="Login to BalaSangum.  "
+            android:id="@+id/headerText" />
+
+        <TextView
+            android:layout_margin="5.5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6d6c6c"
+            android:layout_marginTop="30dp"
+            android:id="@+id/emailHeader"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif"
+            android:layout_below="@+id/headerText"
+            android:text="Email" />
+
+        <EditText
+            android:layout_margin="5.5dp"
+            android:id="@+id/emailEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/emailHeader" />
+
+        <TextView
+            android:layout_margin="5.5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6d6c6c"
+            android:fontFamily="sans-serif"
+            android:textSize="16dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/passwordHeader"
+            android:layout_below="@+id/emailEditText"
+            android:text="Password" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_margin="5.5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/emailEditText"
+            android:layout_alignStart="@+id/passwordHeader"
+            android:layout_below="@+id/passwordHeader"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/editTextPassword"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttonshape"
+            android:onClick="loginUser"
+            android:shadowColor="#2C2CA8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Login"
+            android:layout_marginBottom="20dp"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/angry_btn"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/loginButton"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttonshape"
+            android:onClick="registerNewUser"
+            android:shadowColor="#2C2CA8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+
+</RelativeLayout>
